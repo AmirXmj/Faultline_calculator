@@ -5,10 +5,10 @@ import math
 import multiprocessing
 from multiprocessing import Pool
 import swifter
-cores=math.floor(multiprocessing.cpu_count()*3/4)
 import more_itertools as mit
 from sklearn.metrics.pairwise import cosine_similarity
 import csv
+cores=math.floor(multiprocessing.cpu_count()*3/4)
 
 def item_split_cal(set,mean_0,total_ss_0):
     
